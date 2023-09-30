@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Schedule Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Align content to the top */
+            height: 100vh; /* Center vertically on the page */
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            width: 1200px;
+            background-color: #755BA6; /* Background color for the calendar */
+            padding: 10px; /* Add some padding for spacing */
+        }
+
+        .day {
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: left;
+            position: relative; /* Allow positioning of the number and notes */
+        }
+
+        .day-number {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            font-weight: bold; /* Make the number bold */
+            color: white; /* Set the number color to white */
+        }
+
+        .notes {
+            margin-top: 10px;
+        }
+
+        .notes textarea {
+            width: 100%;
+            height: 60px;
+            resize: vertical;
+        }
+
+        .capture-button {
+            font-weight: bold; /* Make the text "— Capture it —" bold */
+            margin-top: 20px;
+            color: #755BA6; /* Text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Monthly Schedule Tracker</h1>
+
+        <div class="calendar">
+            <!-- Days of the month -->
+            <!-- Add all 31 days here -->
+            <!-- Example for day 1: -->
+            <div class="day">
+                <div class="day-number">1</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">2</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">3</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">4</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">5</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">6</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">7</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">8</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">9</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">10</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">11</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">12</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">13</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">14</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">15</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">16</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">17</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">18</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">19</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">20</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">21</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">22</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">23</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">24</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">25</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">26</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">27</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">28</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">29</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">30</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <div class="day">
+                <div class="day-number">31</div>
+                <div class="notes">
+                    <textarea placeholder="Type your notes here"></textarea>
+                </div>
+            </div>
+            <!-- Continue with the rest of the days -->
+            <!-- Repeat the above structure for days 4 to 31 -->
+        </div>
+        <div class="capture-button"> — Capture it — </div>
+    </div>
+</body>
+</html>
